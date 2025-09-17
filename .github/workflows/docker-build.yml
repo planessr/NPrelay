@@ -132,7 +132,7 @@ jobs:
           docker buildx build \
             --platform linux/amd64 \
             --push \
-            -t bqlpfy/vite-frontend \
+            -t xbone01/vite-frontend \
             ./vite-frontend
 
   build-java:
